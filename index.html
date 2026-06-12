@@ -1,0 +1,31 @@
+#program to check even and odd number
+a=int(input("enter a number"))
+if a%2==0:
+ print("even number")
+else:
+ print ("odd number")
+ 
+# program using loops 
+for i in range (1,11):
+ print(i) 
+
+# program using while loop 
+n=int(input("enter num"))
+i=1
+total =0
+
+while i<=n:
+ total +=i 
+ i+=1
+print ("sum=", total)
+ 
+# program using oops 
+class emp :
+ def __init__(self,name,salary):
+   self.name=name 
+   self.salary=salary 
+ def display (self):
+   print ("name:", self.name)
+   print ("salary:", self.salary)
+e1=emp("arya",1000000)
+e1.display()
