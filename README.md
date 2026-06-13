@@ -48,13 +48,15 @@ class emp :
  def __init__(self,name,salary):
 <br>
    self.name=name 
- <br>
+<br>
    self.salary=salary 
- <br>
+<br>
  def display (self):
  <br>
    print ("name:", self.name)
   <br>
    print ("salary:", self.salary)
+  <br>
 e1=emp("arya",1000000)
+<br>
 e1.display()
